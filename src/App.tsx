@@ -2,8 +2,9 @@
 //import reactLogo from './assets/react.svg';
 //import viteLogo from '/vite.svg';
 
-import  Apps from './App';
-import EventDetails from './Eventdetails.tsx';  // ✅ Proper Import
+//import  Apps from './App';
+//import EventDetails from './Eventdetails.tsx';  // 
+import Homepage from './homepage';
 
 
 function App() {
@@ -12,9 +13,9 @@ function App() {
   return (
     <>
       
-      {/* ✅ Include the EventDetails component */}
+       { <Homepage /> }
       
-      <EventDetails />
+      {/* <EventDetails /> */}
     </>
   );
 }
